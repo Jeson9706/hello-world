@@ -1,0 +1,13 @@
+name: hello-word
+
+on: [push]
+
+jobs:hello_word
+  build:
+
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: demo
+    - name: Jeson
+      run: ./hello-word
